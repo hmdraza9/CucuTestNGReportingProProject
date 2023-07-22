@@ -1,0 +1,8 @@
+Feature: Login feature
+  
+Background: 
+	Given user is on app login page "https://www.google.co.in"
+	
+  @tag1
+  Scenario: Logging in to the system scenrio
+    Given User logs into the system

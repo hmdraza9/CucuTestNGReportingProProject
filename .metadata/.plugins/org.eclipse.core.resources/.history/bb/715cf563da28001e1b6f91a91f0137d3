@@ -1,0 +1,100 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/LoginPage.feature");
+formatter.feature({
+  "name": "Login feature",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on app login page \"https://www.google.co.in\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Logging in to the system scenrio2",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@tag2"
+    },
+    {
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "name": "User logs into the system",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded0.png", "Logging in to the system scenrio2");
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on app login page \"https://www.google.co.in\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Logging in to the system scenrio3",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@tag3"
+    },
+    {
+      "name": "@tag2"
+    },
+    {
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "name": "User logs into the system",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded1.png", "Logging in to the system scenrio3");
+formatter.after({
+  "status": "passed"
+});
+});

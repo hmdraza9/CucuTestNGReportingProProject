@@ -1,0 +1,51 @@
+package com.app.stepDefs;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LoginPageStepDef {
+	
+	private static WebDriver driver;       
+    public final static int TIMEOUT = 10;
+    
+    @Before
+    public void setUp() {
+    	WebDriverManager.chromedriver().setup();
+    	ChromeOptions options = new ChromeOptions();
+//        options.setExperimentalOption(null, options)
+    	options.addArguments("--remote-allow-origins=*");
+        WebDriver driver = new ChromeDriver(options);
+    	driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+    	driver.manage().window().maximize();
+    	
+    }
+    
+    @Given("user is on app login page {string}")
+    public void userIsOnLoginPage(String url) {
+    	driver.get(url);
+    }
+    
+    @Then("User logs into the system")
+    public void userLogsIntoSystem() {
+    	System.out.println("Title"+driver.getTitle());
+    }
+    
+    @After
+    public void tearDown() {
+    	if(driver!=null) {
+    		driver.quit();
+    	}
+    }
+	
+
+}

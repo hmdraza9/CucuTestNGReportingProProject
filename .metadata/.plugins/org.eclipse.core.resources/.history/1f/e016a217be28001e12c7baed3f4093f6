@@ -1,0 +1,6 @@
+Feature: Login feature
+  
+
+  @tag1
+  Scenario: Logging in to the system scenrio
+    Given User logs into the system

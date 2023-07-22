@@ -1,0 +1,78 @@
+package com.app.stepDefs;
+
+import java.io.File;
+import java.io.IOException;
+import java.time.Duration;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
+import org.testng.Reporter;
+
+import com.app.pages.LoginPage;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LoginPageStepDef {
+
+	private static WebDriver driver;
+	public final static int TIMEOUT = 10;
+	LoginPage objLoginPage = new LoginPage(driver);
+
+	@Before
+	public void setUp() {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+		WebDriverManager.chromedriver().setup();
+//    	System.setProperty("webdriver.chrome.driver", "C:/all-driver/chromedriver.exe");
+//        WebDriver driver = new ChromeDriver(options);
+		driver = new ChromeDriver(options);
+//        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(20000));
+		driver.manage().window().maximize();
+
+	}
+
+	@Given("user is on app login page {string}")
+	public void userIsOnLoginPage(String url) {
+		driver.get(url);
+	}
+
+	@Then("User logs into the system")
+	public void userLogsIntoSystem() {
+		System.out.println("Title" + driver.getTitle());
+		Assert.fail();
+	}
+
+	@Then("User logs out the system")
+	public void userLogsOuttoSystem() {
+		System.out.println("Title" + driver.getTitle());
+		Assert.fail();
+	}
+
+	@After
+	public void tearDown(Scenario scenario) throws IOException {
+
+		TakesScreenshot screenshot = (TakesScreenshot) driver;
+		scenario.embed(screenshot.getScreenshotAs(OutputType.BYTES), "image/png", scenario.getName());
+		File scrFile = screenshot.getScreenshotAs(OutputType.FILE);
+		String currScrPath = System.getProperty("user.dir") + "/Screenshots/" + scenario.getName() + ".png";
+		File currScr = new File(currScrPath);
+		FileUtils.copyFile(scrFile, currScr);
+		Reporter.log("<br><img src='" + currScrPath + "' height='225' width='400'/></br>");
+
+		if (driver != null) {
+			driver.quit();
+		}
+	}
+
+}
