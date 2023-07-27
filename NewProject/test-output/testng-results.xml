@@ -1,107 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-28-42.png' height='598' width='1366'/></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-28-43.png' height='598' width='1366'/></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-28-43.png' height='598' width='1366'/></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-26.png' height='598' width='1366'/></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-37.png' height='598' width='1366'/></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-37.png' height='598' width='1366'/></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-37.png' height='598' width='1366'/></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-51.png' height='598' width='1366'/></br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-07-27T19:55:23 IST" name="Default suite" finished-at="2023-07-27T19:55:24 IST" duration-ms="1417">
+  <suite started-at="2023-07-27T22:28:33 IST" name="Default suite" finished-at="2023-07-27T22:29:54 IST" duration-ms="81011">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-07-27T19:55:23 IST" name="Default test" finished-at="2023-07-27T19:55:24 IST" duration-ms="1417">
+    <test started-at="2023-07-27T22:28:33 IST" name="Default test" finished-at="2023-07-27T22:29:54 IST" duration-ms="81011">
       <class name="com.app.runner.CucumberRunnerTests">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T19:55:23 IST" name="setUpClass" finished-at="2023-07-27T19:55:24 IST" duration-ms="1342" status="FAIL">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T22:28:33 IST" name="setUpClass" finished-at="2023-07-27T22:28:34 IST" duration-ms="1281" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@79252c83]]>
+                <![CDATA[org.testng.TestRunner@1dc9aba0]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.InvalidMethodSignatureException">
-            <message>
-              <![CDATA[A method annotated with BeforeAll or AfterAll must have one of these signatures:
- * public static void before_or_after_all()
-at com.app.stepDefs.LoginPageStepDef.tearDown(io.cucumber.java.Scenario)
-
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.java.InvalidMethodSignatureException: A method annotated with BeforeAll or AfterAll must have one of these signatures:
- * public static void before_or_after_all()
-at com.app.stepDefs.LoginPageStepDef.tearDown(io.cucumber.java.Scenario)
-
-
-at io.cucumber.java.InvalidMethodSignatureException$InvalidMethodSignatureExceptionBuilder.build(InvalidMethodSignatureException.java:52)
-at io.cucumber.java.JavaStaticHookDefinition.createInvalidSignatureException(JavaStaticHookDefinition.java:44)
-at io.cucumber.java.JavaStaticHookDefinition.requireValidMethod(JavaStaticHookDefinition.java:24)
-at io.cucumber.java.JavaStaticHookDefinition.<init>(JavaStaticHookDefinition.java:17)
-at io.cucumber.java.GlueAdaptor.addDefinition(GlueAdaptor.java:37)
-at io.cucumber.java.JavaBackend.lambda$loadGlue$1(JavaBackend.java:43)
-at io.cucumber.java.MethodScanner.scan(MethodScanner.java:78)
-at io.cucumber.java.MethodScanner.scan(MethodScanner.java:69)
-at io.cucumber.java.MethodScanner.scan(MethodScanner.java:33)
-at io.cucumber.java.JavaBackend.lambda$loadGlue$2(JavaBackend.java:41)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-at java.base/java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:174)
-at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
-at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)
-at io.cucumber.core.runner.Runner.<init>(Runner.java:56)
-at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:47)
-at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
-at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
-at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
-at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:40)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
-at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:141)
-at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:93)
-at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:124)
-at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.java.InvalidMethodSignatureException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T19:55:24 IST" name="tearDownClass" finished-at="2023-07-27T19:55:24 IST" duration-ms="1" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T22:28:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T22:29:28 IST" duration-ms="53451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio one"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-28-42.png' height='598' width='1366'/></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-28-43.png' height='598' width='1366'/></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-28-43.png' height='598' width='1366'/></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-26.png' height='598' width='1366'/></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T22:29:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T22:29:51 IST" duration-ms="23607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-37.png' height='598' width='1366'/></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-37.png' height='598' width='1366'/></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-37.png' height='598' width='1366'/></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\GitClones\CucuTestNGReportingProProject\NewProject/Screenshots/Logging inScreenshot_27Jul2023_22-29-51.png' height='598' width='1366'/></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T22:29:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T22:29:51 IST" duration-ms="31" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing params in steps"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3MREL07', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.way2automation.com/angularjs-protractor/banking/#/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\HMDRA_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60577/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3MREL07', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.way2automation.com/angularjs-protractor/banking/#/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\HMDRA_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60577/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:42)
+at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T22:29:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T22:29:51 IST" duration-ms="17" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing params in steps"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3MREL07', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.way2automation.com/angularjs-protractor/banking/#/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\HMDRA_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60577/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3MREL07', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.way2automation.com/angularjs-protractor/banking/#/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\HMDRA_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60577/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:42)
+at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T22:29:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-27T22:29:51 IST" duration-ms="20" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing params in steps"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3MREL07', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.way2automation.com/angularjs-protractor/banking/#/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\HMDRA_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60577/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3MREL07', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://www.way2automation.com/angularjs-protractor/banking/#/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\HMDRA_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60577/devtoo..., se:cdpVersion: 115.0.5790.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:42)
+at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.app.runner.CucumberRunnerTests@125c082e]" started-at="2023-07-27T22:29:51 IST" name="tearDownClass" finished-at="2023-07-27T22:29:54 IST" duration-ms="2527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -11,7 +11,7 @@ import com.app.pages.LoginPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Then;
 
-public class LoginPageStepDefAPI {
+public class dbOpsStepDefAPI {
 
 	private static WebDriver driver;
 	public final static int TIMEOUT = 10;
@@ -20,6 +20,7 @@ public class LoginPageStepDefAPI {
 
 	@Then("^user multiplies \"(.*)\" and \"(.*)\"$")
 	public void userMultipliesTwoNumbers(String num1, String num2) {
+		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		num1 = num1.replace("<", "").replace(">", "");
 		num2 = num2.replace("<", "").replace(">", "");
 		System.out.println("Number 1: "+num1+"; Number 2: "+num2);
@@ -28,6 +29,7 @@ public class LoginPageStepDefAPI {
 
 	@Then("tests pipe separated params")
 	public void testsPipeSeparatedParams(DataTable dataTable) {
+		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println("Before transpose: "+dataTable);
 		dataTable.transpose();
 		System.out.println("After transpose: "+dataTable);
@@ -40,6 +42,7 @@ public class LoginPageStepDefAPI {
 	}
 
 	public static String timePrint() {
+		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("ddMMMyyyy_HH-mm-ss");
 		LocalDateTime now = LocalDateTime.now();
 		return dtf.format(now).toString();
