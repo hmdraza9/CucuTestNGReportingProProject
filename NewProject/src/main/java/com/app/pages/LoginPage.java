@@ -11,8 +11,8 @@ public class LoginPage {
 	}
 	
 	
-	public void loginToApp() {
-		
+	public void OpenURL(WebDriver driver, String url) {
+		driver.get(url);
 	}
 	
 }
