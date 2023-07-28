@@ -20,23 +20,21 @@ public class dbOpsStepDefAPI {
 
 	@Then("^user multiplies \"(.*)\" and \"(.*)\"$")
 	public void userMultipliesTwoNumbers(String num1, String num2) {
-		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		num1 = num1.replace("<", "").replace(">", "");
 		num2 = num2.replace("<", "").replace(">", "");
-		System.out.println("Number 1: "+num1+"; Number 2: "+num2);
-		System.out.println("Multiplication of numbers Number 1: "+num1+"; Number 2: "+num2+" is: "+Integer.parseInt(num1)*Integer.parseInt(num2));
+//		System.out.println("Number 1: "+num1+"; Number 2: "+num2);
+//		System.out.println("Multiplication of numbers Number 1: "+num1+"; Number 2: "+num2+" is: "+Integer.parseInt(num1)*Integer.parseInt(num2));
 	}
 
 	@Then("tests pipe separated params")
 	public void testsPipeSeparatedParams(DataTable dataTable) {
-		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
-		System.out.println("Before transpose: "+dataTable);
+//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		dataTable.transpose();
-		System.out.println("After transpose: "+dataTable);
-		System.out.println("dataTable.height(): "+dataTable.height());
+//		System.out.println("dataTable.height(): "+dataTable.height());
 		List<String> data = dataTable.asList(String.class);
 		for(String str : data) {
-			System.out.println("Data value: "+str);
+//			System.out.println("Data value: "+str);
 		}
 		
 	}

@@ -7,7 +7,7 @@ Background:
   Scenario: Logging in to the system scenrio one
     Then User logs into the system
     Then User logs out the system
-    Then user navigates to "https://in.com"
+    Then user navigates to "https://cucumber.io/"
     
   @tag2 @tag1 @UI
   Scenario: Logging in to the system scenrio two
@@ -21,29 +21,4 @@ Background:
     Then User logs out the system
     Then user navigates to "https://youtube.com"
     
-	@testParams @DB @tag1 
-	Scenario: Testing params in steps
-		Then user multiplies "12" and "15"
-		Then tests pipe separated params
-#		|Hello|My|Name|Is|Mr.|Hamid|Raza|
-		|Hello|
-		|My|
-		|Name|
-		|Is|
-		|Mr|
-		|Hamid|
-		|Raza|
     
-	@testParams @DB @tag1 
-	Scenario Outline: Testing params in steps
-		Then user multiplies "12" and "15"
-		Then user multiplies "<num1>" and "<num2>"
-
-		Examples:
-		|num1|num2|
-		|21|17|
-		|51|11|
-
-		
-
-		
