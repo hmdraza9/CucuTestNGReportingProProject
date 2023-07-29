@@ -1,7 +1,8 @@
 package com.app.stepDefs;
 
-import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -19,16 +20,19 @@ public class LoginPageStepDef {
 	public final static int TIMEOUT = 10;
 	LoginPage objLoginPage = new LoginPage(Utilities.getDriver());
 	public Scenario scenario;
+	Logger log = LogManager.getFormatterLogger(LoginPageStepDef.class);
 
 	@Given("user is on app login page {string}")
 	public void userIsOnLoginPage(String url) {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		objLoginPage.OpenURL(url);
 	}
 
 	@Then("user navigates to {string}")
 	public void userNavigatesToPage(String url) {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		objLoginPage.OpenURL(url);
 		Utilities.ts(scenario);
 	}
@@ -36,6 +40,7 @@ public class LoginPageStepDef {
 	@Then("User logs into the system")
 	public void userLogsIntoSystem() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		objLoginPage.printTitle();
 	}
 
@@ -76,6 +81,7 @@ public class LoginPageStepDef {
 	@BeforeStep
 	public void BeforeStep(Scenario scenario) {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		this.scenario = scenario;
 	}
 

@@ -10,6 +10,8 @@ import java.time.format.DateTimeFormatter;
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -25,9 +27,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Utilities {
 
 	public static WebDriver driver;
+	static Logger log = LogManager.getFormatterLogger(Utilities.class);
 
 	public static WebDriver getDriver() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		if (driver == null) {
 
 			System.out.println("***************Set up new browser***************");
