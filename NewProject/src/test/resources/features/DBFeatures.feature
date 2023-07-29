@@ -13,7 +13,7 @@ Feature: Login feature
 		|Hamid|
 		|Raza|
     
-	@testParams @DB @tag1 
+	@testParams @DB @tag11 
 	Scenario Outline: Testing params in steps
 		Then user multiplies "12" and "15"
 		Then user multiplies "<num1>" and "<num2>"

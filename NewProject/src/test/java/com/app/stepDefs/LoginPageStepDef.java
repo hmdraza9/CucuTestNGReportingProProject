@@ -51,44 +51,10 @@ public class LoginPageStepDef {
 		Assert.assertTrue(true);
 	}
 
-//	public static WebDriver getDrivaer() {
-//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
-//		if (driver == null) {
-//
-//			System.out.println("***************Set up Browser***************");
-//			ChromeOptions options = new ChromeOptions();
-//			options.addArguments("--remote-allow-origins=*");
-//			options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
-////			options.addArguments("--headless");
-////			options.addArguments("headless");
-//			WebDriverManager.chromedriver().setup();
-//			driver = new ChromeDriver(options);
-//			driver.manage().timeouts().implicitlyWait(Duration.ofMillis(20000));
-//			driver.manage().window().maximize();
-////			System.out.println("Driver if driver==null : "+driver);
-//		}
-////		System.out.println("Driver if not null: "+driver);
-//		try {
-//			driver.manage().window().maximize();
-//		} catch (NoSuchSessionException e) {
-//			// TODO Auto-generated catch block
-//			driver = null;
-//			getDrivaer();
-//		}
-//		return driver;
-//	}
-
 	@BeforeStep
 	public void BeforeStep(Scenario scenario) {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		this.scenario = scenario;
 	}
-
-//	@AfterStep
-//	public void takeScreenshot(Scenario scenario) throws IOException {
-//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
-//		ts(scenario);
-//	}
-
 }
