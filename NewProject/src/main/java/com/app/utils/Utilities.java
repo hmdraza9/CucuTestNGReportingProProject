@@ -30,7 +30,7 @@ public class Utilities {
 	public static WebDriver driver;
 	static Logger log = LogManager.getFormatterLogger(Utilities.class);
 
-	public static WebDriver getDriver() {
+	public static WebDriver getDriver() {//Using normal driver init
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		log.info(new Throwable().getStackTrace()[0].getMethodName());
 //		if (tlDriver == null) {
@@ -63,7 +63,7 @@ public class Utilities {
 		return getDriver1();
 	}
 
-	public static synchronized WebDriver getDriver1() {
+	public static synchronized WebDriver getDriver1() {//using ThreadLocal<WebDriver>
 		return tlDriver.get();
 	}
 
