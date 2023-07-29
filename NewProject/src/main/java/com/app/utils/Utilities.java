@@ -26,45 +26,55 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Utilities {
 
+	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	public static WebDriver driver;
 	static Logger log = LogManager.getFormatterLogger(Utilities.class);
 
 	public static WebDriver getDriver() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		log.info(new Throwable().getStackTrace()[0].getMethodName());
-		if (driver == null) {
+//		if (tlDriver == null) {
 
 			System.out.println("***************Set up new browser***************");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 //			options.addArguments("--headless");
-//			options.addArguments("headless");
+			options.addArguments("headless");
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver(options);
-			driver.manage().timeouts().implicitlyWait(Duration.ofMillis(20000));
-			driver.manage().window().maximize();
+			tlDriver.set(new ChromeDriver(options));
+//			driver = new ChromeDriver(options);
+			getDriver1().manage().timeouts().implicitlyWait(Duration.ofMillis(20000));
+			getDriver1().manage().window().maximize();
 //			System.out.println("Driver if driver==null : "+driver);
-		}
+//		}
 //		System.out.println("Driver if not null: "+driver);
 		try {
-			driver.manage().window().maximize();
+			getDriver1().manage().window().maximize();
 		} catch (NoSuchSessionException e) {
 			// TODO Auto-generated catch block
-			driver = null;
-			getDriver();
+			tlDriver = null;
+			getDriver1();
+		} catch (NullPointerException e) {
+			// TODO Auto-generated catch block
+			tlDriver = null;
+			getDriver1();
 		}
-		System.out.println("Driver --> "+driver);
-		return driver;
+		System.out.println("Driver --> " + tlDriver);
+		return getDriver1();
+	}
+
+	public static synchronized WebDriver getDriver1() {
+		return tlDriver.get();
 	}
 
 	public static void ts(Scenario scenario) {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		try {
-			WebDriver driver = Utilities.getDriver();
+			WebDriver driver = Utilities.getDriver1();
 //			System.out.println("Driver value: "+driver);
 			TakesScreenshot screenshot = (TakesScreenshot) driver;
 			File scrFile = screenshot.getScreenshotAs(OutputType.FILE);
-			String currScrPath = System.getProperty("user.dir") + "/Screenshots/" + timePrint("dd-MMM-yyyy")+"/"
+			String currScrPath = System.getProperty("user.dir") + "/Screenshots/" + timePrint("dd-MMM-yyyy") + "/"
 					+ scenario.getName().substring(0, 10) + "_" + timePrint(null) + ".png";
 			File currScr = new File(currScrPath);
 			FileUtils.copyFile(scrFile, currScr);
@@ -85,7 +95,7 @@ public class Utilities {
 
 	public static void tearDown() throws IOException {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
-		driver = Utilities.getDriver();
+		driver = Utilities.getDriver1();
 		System.out.println("***************Kill Browser***************");
 		driver.quit();
 	}

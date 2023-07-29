@@ -26,7 +26,7 @@ public class ApplicationHooks {
 	@Before("@DB")
 	public static void setItUpdB() {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
-		System.out.println("Initiate dB Connection");
+		System.out.println("***************Initiate dB Connection***************");
 	}
 	
 	
@@ -34,7 +34,7 @@ public class ApplicationHooks {
 	@After("@DB")
 	public static void clearItOffdB() throws IOException {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
-		System.out.println("CLOSE dB Connection");
+		System.out.println("***************CLOSE dB Connection***************");
 	}
 	
 }

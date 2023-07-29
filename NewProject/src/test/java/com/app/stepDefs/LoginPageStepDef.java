@@ -18,7 +18,7 @@ public class LoginPageStepDef {
 
 	private static WebDriver driver;
 	public final static int TIMEOUT = 10;
-	LoginPage objLoginPage = new LoginPage(Utilities.getDriver());
+	LoginPage objLoginPage = new LoginPage(Utilities.getDriver1());
 	public Scenario scenario;
 	Logger log = LogManager.getFormatterLogger(LoginPageStepDef.class);
 
