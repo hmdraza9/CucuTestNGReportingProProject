@@ -1,4 +1,4 @@
-Logger woring totally fine, just DEBUG also coming on console; Extent reporting not generating!
+Logger woring totally fine, just DEBUG also coming on console; Extent reporting not generating! 
 Voila!! BrowserSet up vs Hooks, Before After working now finally. Cucumber reporting wth screenshots, TestNG Reporting with Screenshots, Cucumber with TestNG; and concept of Before and After hooks in Cucumber and TestNG; TestNG takes one scenario as one @Test as in TestNG itself, adding screenshots on scenario level, dealing with byteArray byte[], also attaching the image screenshot wrt its origin al height and width. Driver initilize and ts methods in Utilities class, everything working fine
 The folder test-output can be deleted, but Target should not be deleted ever, it contains .class files which keeps all classes including the Runner file at classPath, so don't ever try to delete the Target folder or any of its files. Happy testing!
 Added cucumber steps, with vertical column. Use horizontal table with header. Also, tabular form available. BrowserSet up vs Hooks, Before After working now finally
