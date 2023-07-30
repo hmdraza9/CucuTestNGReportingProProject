@@ -35,10 +35,10 @@ public class MoneyCtrlPage {
 		Thread.sleep(4000);
 		List<WebElement> thList = driver.findElements(By.xpath(stockTableHeaders));
 		log.info("List: " + thList);
-		int i = 0;
+		int i = 1;
 		for (WebElement el : thList) {
 			if (el.getText().contains(paramValue)) {
-				log.info("el.getText(): " + el.getText());
+//				log.info("el.getText(): " + el.getText());
 				log.info("Header pointing at: " + i);
 				break;
 			} else
@@ -54,10 +54,13 @@ public class MoneyCtrlPage {
 			element = element.replace("RunTimeVar2", String.valueOf(i));
 		log.info("element: " + element);
 
-		String paramValueAct = driver.findElement(By.xpath(element)).getText();
+		WebElement el = driver.findElement(By.xpath(element));
+		Utilities.zoomToElelemnt(el);
+		String paramValueAct = el.getText();
 		log.info("paramValueAct: " + paramValueAct);
 
-		scenario.log("Value of <b>" + paramValue + "</b> for company <b>" + companyName + "</b> is " + paramValueAct);
+		scenario.log("Value of <b>" + paramValue + "</b> for company <b>" + companyName + "</b> is <b>" + paramValueAct
+				+ "</b>");
 
 	}
 

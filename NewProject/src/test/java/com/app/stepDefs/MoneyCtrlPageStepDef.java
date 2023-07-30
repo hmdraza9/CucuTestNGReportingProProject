@@ -18,7 +18,7 @@ public class MoneyCtrlPageStepDef {
 
 	@Then("fetch {string} for company {string}")
 	public void userNavigatesToPage(String paramValue, String companyName) throws InterruptedException {
-		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		objMoneyCtrlPage.fetchTodayStock(paramValue, companyName, scenario);
 		Utilities.ts(scenario);

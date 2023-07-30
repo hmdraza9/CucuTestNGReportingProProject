@@ -1,21 +1,19 @@
 package com.app.stepDefs;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.List;
-
-import org.openqa.selenium.WebDriver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.app.pages.LoginPage;
+import com.app.utils.Utilities;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Then;
 
 public class dbOpsStepDefAPI {
 
-	private static WebDriver driver;
 	public final static int TIMEOUT = 10;
-	LoginPage objLoginPage = new LoginPage(driver);
+	Logger log = LogManager.getFormatterLogger(dbOpsStepDefAPI.class);
+	LoginPage objLoginPage = new LoginPage(Utilities.getDriver1());
 
 
 	@Then("^user multiplies \"(.*)\" and \"(.*)\"$")
@@ -25,6 +23,7 @@ public class dbOpsStepDefAPI {
 		num2 = num2.replace("<", "").replace(">", "");
 //		System.out.println("Number 1: "+num1+"; Number 2: "+num2);
 //		System.out.println("Multiplication of numbers Number 1: "+num1+"; Number 2: "+num2+" is: "+Integer.parseInt(num1)*Integer.parseInt(num2));
+		log.info("Multiplication of numbers Number 1: "+num1+"; Number 2: "+num2+" is: "+Integer.parseInt(num1)*Integer.parseInt(num2));
 	}
 
 	@Then("tests pipe separated params")
@@ -32,18 +31,11 @@ public class dbOpsStepDefAPI {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		dataTable.transpose();
 //		System.out.println("dataTable.height(): "+dataTable.height());
-		List<String> data = dataTable.asList(String.class);
-		for(String str : data) {
+//		List<String> data = dataTable.asList(String.class);
+//		for(String str : data) {
 //			System.out.println("Data value: "+str);
-		}
+//		}
 		
-	}
-
-	public static String timePrint() {
-		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("ddMMMyyyy_HH-mm-ss");
-		LocalDateTime now = LocalDateTime.now();
-		return dtf.format(now).toString();
 	}
 
 }

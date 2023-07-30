@@ -17,9 +17,9 @@ public class LoginPage {
 		this.driver = driver;
 	}
 	public void printTitle() {
-		System.out.println("Title is : --> "+driver.getTitle());
-		log.info("Testing ExtentCucumberAdapter.addTestStepLog");
-//		ExtentCucumberAdapter.addTestStepLog("Testing ExtentCucumberAdapter.addTestStepLog");
+//		System.out.println("Title is : --> "+driver.getTitle());
+		log.info("Title is : --> "+driver.getTitle());
+		ExtentCucumberAdapter.addTestStepLog("Step in report using ExtentCucumberAdapter.addTestStepLog");
 	}
 	
 

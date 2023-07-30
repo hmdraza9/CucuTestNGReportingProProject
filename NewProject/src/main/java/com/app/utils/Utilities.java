@@ -12,11 +12,13 @@ import javax.imageio.ImageIO;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Reporter;
@@ -26,16 +28,18 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Utilities {
 
-	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+	private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	public static WebDriver driver;
 	static Logger log = LogManager.getFormatterLogger(Utilities.class);
+	static JavascriptExecutor js ;
 
 	public static WebDriver getDriver() {//Using normal driver init
-		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		log.info(new Throwable().getStackTrace()[0].getMethodName());
 //		if (tlDriver == null) {
 
-			System.out.println("***************Set up new browser***************");
+//			System.out.println("***************Set up new browser***************");
+			log.info("***************Set up new browser***************");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 //			options.addArguments("--headless");
@@ -51,15 +55,14 @@ public class Utilities {
 		try {
 			getDriver1().manage().window().maximize();
 		} catch (NoSuchSessionException e) {
-			// TODO Auto-generated catch block
 			tlDriver = null;
 			getDriver1();
 		} catch (NullPointerException e) {
-			// TODO Auto-generated catch block
 			tlDriver = null;
 			getDriver1();
 		}
-		System.out.println("Driver --> " + tlDriver);
+//		System.out.println("Driver --> " + tlDriver);
+		log.info("Driver --> " + tlDriver);
 		return getDriver1();
 	}
 
@@ -70,20 +73,19 @@ public class Utilities {
 	public static void ts(Scenario scenario) {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		
-		System.out.println("scenario.getId(): "+scenario.getId());
+//		System.out.println("scenario.getId(): "+scenario.getId());
 		
-		System.out.println("scenario.getLine();: "+scenario.getLine());
+//		System.out.println("scenario.getLine();: "+scenario.getLine());
 		
-		System.out.println("scenario.getName(): "+scenario.getName());
+//		System.out.println("scenario.getName(): "+scenario.getName());
 		
-		System.out.println("scenario.getSourceTagNames(): "+scenario.getSourceTagNames());
+//		System.out.println("scenario.getSourceTagNames(): "+scenario.getSourceTagNames());
 		
-		System.out.println("scenario.getStatus(): "+scenario.getStatus());
+//		System.out.println("scenario.getStatus(): "+scenario.getStatus());
 		
-		System.out.println("scenario.getUri(): "+scenario.getUri());
+//		System.out.println("scenario.getUri(): "+scenario.getUri());
 		
-		System.out.println("scenario.isFailed(): "+scenario.isFailed());
-		scenario.log("Log using scenario logger");
+//		System.out.println("scenario.isFailed(): "+scenario.isFailed());
 		try {
 			WebDriver driver = Utilities.getDriver1();
 //			System.out.println("Driver value: "+driver);
@@ -98,20 +100,20 @@ public class Utilities {
 			int width = bimb.getWidth();
 			Reporter.log("<br><img src='" + currScrPath + "' height='" + height + "' width='" + width + "'/></br>");
 			byte[] fileContent = FileUtils.readFileToByteArray(currScr);
-			scenario.attach(fileContent, "image/png", scenario.getName());
+			scenario.attach(fileContent, "image/png", null);
 		} catch (WebDriverException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
 	public static void tearDown() throws IOException {
-		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		driver = Utilities.getDriver1();
-		System.out.println("***************Kill Browser***************");
+//		System.out.println("***************Kill Browser***************");
+		log.info("***************Kill Browser***************");
 		driver.quit();
 	}
 
@@ -123,6 +125,26 @@ public class Utilities {
 		} else {
 			dtf = DateTimeFormatter.ofPattern("ddMMMyyyy_HH-mm-ss");
 		}
+		LocalDateTime now = LocalDateTime.now();
+		return dtf.format(now).toString();
+	}
+	
+	public static void zoomToElelemnt(WebElement el) {
+		js.executeScript("arguments[0].scrollIntoView(true);", el);
+	}
+	
+	public static void clickToElelement(WebElement el) {
+		driver = Utilities.getDriver1();
+		js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView(true);", el);
+		el.click();
+	}
+
+
+	public String timePrint() {
+//		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		log.info(new Throwable().getStackTrace()[0].getMethodName());
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("ddMMMyyyy_HH-mm-ss");
 		LocalDateTime now = LocalDateTime.now();
 		return dtf.format(now).toString();
 	}

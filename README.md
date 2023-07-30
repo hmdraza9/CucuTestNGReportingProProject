@@ -1,3 +1,4 @@
+20 July 2023 - Verified, working --> Step in report using ExtentCucumberAdapter.addTestStepLog; Report not generates for tag reason, what actually, don't know.
 29 July 2023 - Eureka!!!! Extent reporting is now working. Just had to place extent.properties in src/test/resources and add plugin - "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", also place extent-config.xml at the same path which is used by extent.properties
 29 July 2023 - Added ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();getDriver() is for normal driver init, getDriver1() is for trying to use ExtentCucumberAdapter.addTestStepLog, though not yet able to use, trying.
 28 July 2023 - Logger woring totally fine, just DEBUG also coming on console; Extent reporting not generating!  place log4j2.properties in src/test/resources 
