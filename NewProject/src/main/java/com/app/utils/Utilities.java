@@ -43,7 +43,7 @@ public class Utilities {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 //			options.addArguments("--headless");
-			options.addArguments("headless");
+//			options.addArguments("headless");
 			WebDriverManager.chromedriver().setup();
 			tlDriver.set(new ChromeDriver(options));
 //			driver = new ChromeDriver(options);
