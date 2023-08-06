@@ -9,6 +9,7 @@ import com.app.utils.Utilities;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class ApplicationHooks {
 
@@ -24,8 +25,11 @@ public class ApplicationHooks {
 	
 	
 	@After("@UI")
-	public static void After_UI() throws IOException {
+	public static void After_UI(Scenario scenario) throws IOException {
 //		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
+		if(scenario.isFailed()) {
+			Utilities.ts(scenario);
+		}
 		log.info(new Throwable().getStackTrace()[0].getMethodName());
 		Utilities.tearDown();
 	}
