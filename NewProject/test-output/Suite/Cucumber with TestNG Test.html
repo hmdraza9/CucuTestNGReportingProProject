@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>TestNG:  Cucumber with TestNG Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cucumber with TestNG Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 07 23:58:57 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111861 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.app.runner.CucumberRunnerTests.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CucumberRunnerTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging in to the system scenrio three", "Login feature"<br/>
+<a href="#Output-70735563" onClick='toggleBox("Output-70735563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70735563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70735563">
+<br><img src='C:\Users\hamid_raza\Downloads\CucuTestNGReportingProProject-main\NewProject/Screenshots/08-Feb-2024/Logging in_08Feb2024_00-00-07.png' height='869' width='1920'/></br><br/>
+<br><img src='C:\Users\hamid_raza\Downloads\CucuTestNGReportingProProject-main\NewProject/Screenshots/08-Feb-2024/Logging in_08Feb2024_00-00-45.png' height='869' width='1920'/></br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;bsr_table hist_tbl_hm&apos;]/table/tbody//h3//a[text()=&apos;ONGC&apos;]/ancestor::tr/td[7]&quot;}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65af8c4c35257d89c3b1ae88fc897f69, findElement {using=xpath, value=//div[@class=&apos;bsr_table hist_tbl_hm&apos;]/table/tbody//h3//a[text()=&apos;ONGC&apos;]/ancestor::tr/td[7]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54952}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54952/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65af8c4c35257d89c3b1ae88fc897f69
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at com.app.pages.MoneyCtrlPage.fetchTodayStock(MoneyCtrlPage.java:57)
+	at com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(MoneyCtrlPageStepDef.java:23)
+	at ✽.fetch &quot;% Gain&quot; for company &quot;ONGC&quot;(file:///C:/Users/hamid_raza/Downloads/CucuTestNGReportingProProject-main/NewProject/src/test/resources/features/LoginPage.feature:23)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace70735563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace70735563'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;bsr_table hist_tbl_hm&apos;]/table/tbody//h3//a[text()=&apos;ONGC&apos;]/ancestor::tr/td[7]&quot;}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65af8c4c35257d89c3b1ae88fc897f69, findElement {using=xpath, value=//div[@class=&apos;bsr_table hist_tbl_hm&apos;]/table/tbody//h3//a[text()=&apos;ONGC&apos;]/ancestor::tr/td[7]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54952}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54952/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65af8c4c35257d89c3b1ae88fc897f69
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at com.app.pages.MoneyCtrlPage.fetchTodayStock(MoneyCtrlPage.java:57)
+	at com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(MoneyCtrlPageStepDef.java:23)
+	at ✽.fetch &quot;% Gain&quot; for company &quot;ONGC&quot;(file:///C:/Users/hamid_raza/Downloads/CucuTestNGReportingProProject-main/NewProject/src/test/resources/features/LoginPage.feature:23)
+</pre></div></td>
+<td>49</td>
+<td>com.app.runner.CucumberRunnerTests@8458f04</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.app.runner.CucumberRunnerTests.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CucumberRunnerTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging in to the system scenrio two", "Login feature"<br/>
+<a href="#Output-1841029010" onClick='toggleBox("Output-1841029010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1841029010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1841029010">
+<br><img src='C:\Users\hamid_raza\Downloads\CucuTestNGReportingProProject-main\NewProject/Screenshots/07-Feb-2024/Logging in_07Feb2024_23-59-56.png' height='869' width='1920'/></br><br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.app.runner.CucumberRunnerTests@8458f04</td></tr>
+<tr>
+<td title='com.app.runner.CucumberRunnerTests.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CucumberRunnerTests<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logging in to the system scenrio one", "Login feature"<br/>
+<a href="#Output-10919837" onClick='toggleBox("Output-10919837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10919837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10919837">
+<br><img src='C:\Users\hamid_raza\Downloads\CucuTestNGReportingProProject-main\NewProject/Screenshots/07-Feb-2024/Logging in_07Feb2024_23-59-22.png' height='869' width='1920'/></br><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.app.runner.CucumberRunnerTests@8458f04</td></tr>
+</table><p>
+</body>
+</html>

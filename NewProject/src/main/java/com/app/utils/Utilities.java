@@ -21,7 +21,7 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Reporter;
+//import org.testng.Reporter;
 
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -98,7 +98,7 @@ public class Utilities {
 			BufferedImage bimb = ImageIO.read(currScr);
 			int height = bimb.getHeight();
 			int width = bimb.getWidth();
-			Reporter.log("<br><img src='" + currScrPath + "' height='" + height + "' width='" + width + "'/></br>");
+//			Reporter.log("<br><img src='" + currScrPath + "' height='" + height + "' width='" + width + "'/></br>");
 			byte[] fileContent = FileUtils.readFileToByteArray(currScr);
 			scenario.attach(fileContent, "image/png", null);
 		} catch (WebDriverException e) {
