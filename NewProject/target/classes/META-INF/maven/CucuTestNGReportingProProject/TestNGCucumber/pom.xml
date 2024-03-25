@@ -91,12 +91,6 @@
 			<artifactId>org.apache.commons.io</artifactId>
 			<version>${apache.common.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>5.0.4</version>
-		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber5-adapter -->
 		<dependency>
