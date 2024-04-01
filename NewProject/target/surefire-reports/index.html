@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\hamid_raza\Downloads\CucuTestNGReportingProProject-main\NewProject\testngDB.xml</span>
+                    <span>C:\GitClones\CucuTestNGReportingProProject\NewProject\testngDB.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -170,14 +170,14 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\hamid_raza\Downloads\CucuTestNGReportingProProject-main\NewProject\testngDB.xml</span>
+            <span class="header-content">C:\GitClones\CucuTestNGReportingProProject\NewProject\testngDB.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Cucumber with TestNG Test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Cucumber with TestNG Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.app.runner.CucumberRunnerTestsDB&quot;/&gt;
     &lt;/classes&gt;
@@ -231,20 +231,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.app.runner.CucumberRunnerTestsDB')
-data.setCell(0, 3, 494);
+data.setCell(0, 3, 613);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.app.runner.CucumberRunnerTestsDB')
-data.setCell(1, 3, 16);
+data.setCell(1, 3, 613);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'com.app.runner.CucumberRunnerTestsDB')
-data.setCell(2, 3, 9);
+data.setCell(2, 3, 613);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 519 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -272,24 +272,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.app.runner.CucumberRunnerTestsDB</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@5fd8dd66)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@33065d67)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Testing params in steps", "Login feature")</span>
-                <span class="method-start">694 ms</span>
+                <span class="method-start">1094 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Testing params in steps", "Login feature")</span>
-                <span class="method-start">1189 ms</span>
+                <span class="method-start">1094 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Testing params in steps", "Login feature")</span>
-                <span class="method-start">1205 ms</span>
+                <span class="method-start">1094 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">1214 ms</span>
+                <span class="method-start">1711 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
