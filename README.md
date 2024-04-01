@@ -7,3 +7,5 @@ The folder test-output can be deleted, but Target should not be deleted ever, it
 Added cucumber steps, with vertical column. Use horizontal table with header. Also, tabular form available. BrowserSet up vs Hooks, Before After working now finally
 
 8 Feb 2024 - Create and Run Maven Project from CMD,surefire reports
+
+1-Apr-2024 - updated to Selenium 4.17.0, removed WebDriverManager
