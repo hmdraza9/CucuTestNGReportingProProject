@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="0" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-01T15:28:35 IST" name="Suite" finished-at="2024-04-01T15:28:38 IST" duration-ms="3327">
+  <suite started-at="2024-04-01T17:53:31 IST" name="Suite" finished-at="2024-04-01T17:53:42 IST" duration-ms="11204">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsDB@201a4587]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-01T15:28:35 IST" name="Cucumber with TestNG Test" finished-at="2024-04-01T15:28:38 IST" duration-ms="3327">
-      <class name="com.app.runner.CucumberRunnerTestsDB">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.app.runner.CucumberRunnerTestsDB@201a4587]" started-at="2024-04-01T15:28:35 IST" name="setUpClass" finished-at="2024-04-01T15:28:36 IST" duration-ms="1078" status="PASS">
+    <test started-at="2024-04-01T17:53:31 IST" name="Cucumber with TestNG Test" finished-at="2024-04-01T17:53:42 IST" duration-ms="11204">
+      <class name="com.app.runner.CucumberRunnerTestsUI">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:31 IST" name="setUpClass" finished-at="2024-04-01T17:53:32 IST" duration-ms="676" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@33065d67]]>
+                <![CDATA[org.testng.TestRunner@6d60fe40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsDB@201a4587]" started-at="2024-04-01T15:28:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T15:28:37 IST" duration-ms="613" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:38 IST" duration-ms="6184" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Testing params in steps"]]>
+                <![CDATA["Logging in to the system scenrio two"]]>
               </value>
             </param>
             <param index="1">
@@ -34,14 +34,50 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsDB@201a4587]" started-at="2024-04-01T15:28:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T15:28:37 IST" duration-ms="613" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:36 IST" duration-ms="4586" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Testing params in steps"]]>
+                <![CDATA["Logging in to the system scenrio two"]]>
               </value>
             </param>
             <param index="1">
@@ -50,14 +86,50 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsDB@201a4587]" started-at="2024-04-01T15:28:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T15:28:37 IST" duration-ms="613" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:39 IST" duration-ms="6826" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Testing params in steps"]]>
+                <![CDATA["Logging in to the system scenrio two"]]>
               </value>
             </param>
             <param index="1">
@@ -66,14 +138,466 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.app.runner.CucumberRunnerTestsDB@201a4587]" started-at="2024-04-01T15:28:37 IST" name="tearDownClass" finished-at="2024-04-01T15:28:38 IST" duration-ms="1595" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:38 IST" duration-ms="6417" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:39 IST" duration-ms="7740" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:38 IST" duration-ms="6714" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:39 IST" duration-ms="7637" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:36 IST" duration-ms="4221" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio one"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:40 IST" duration-ms="7770" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:39 IST" duration-ms="7620" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-01T17:53:39 IST" duration-ms="3393" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging in to the system scenrio three"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+at com.app.utils.Utilities.getDriver(Utilities.java:48)
+at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.app.runner.CucumberRunnerTestsUI@4b45a2f5]" started-at="2024-04-01T17:53:40 IST" name="tearDownClass" finished-at="2024-04-01T17:53:42 IST" duration-ms="2720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.app.runner.CucumberRunnerTestsDB -->
+      </class> <!-- com.app.runner.CucumberRunnerTestsUI -->
     </test> <!-- Cucumber with TestNG Test -->
   </suite> <!-- Suite -->
 </testng-results>

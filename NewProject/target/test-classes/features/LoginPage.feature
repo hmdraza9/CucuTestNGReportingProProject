@@ -15,6 +15,54 @@ Background:
     Then User logs out the system
     Then user navigates to "https://yahoo.com"
 
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
+  @tag2 @tag1 @UI
+  Scenario: Logging in to the system scenrio two
+    Then User logs into the system
+    Then User logs out the system
+    Then user navigates to "https://yahoo.com"
+
   @tag3 @tag2 @UI @tag1
   Scenario: Logging in to the system scenrio three
     #Then User logs into the system

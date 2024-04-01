@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.835" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.75" tests="11" errors="0" skipped="0" failures="11">
   <properties>
     <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\hamid_raza\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\GitClones\CucuTestNGReportingProProject\NewProject\target\test-classes;C:\GitClones\CucuTestNGReportingProProject\NewProject\target\classes;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\hamid_raza\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\hamid_raza\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\hamid_raza\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\hamid_raza\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hamid_raza\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\hamid_raza\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\hamid_raza\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\hamid_raza\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\hamid_raza\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.9.2\extentreports-cucumber7-adapter-1.9.2.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\hamid_raza\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\hamid_raza\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\hamid_raza\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\hamid_raza\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\hamid_raza\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hamid_raza\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hamid_raza\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="java.class.path" value="C:\GitClones\CucuTestNGReportingProProject\NewProject\target\test-classes;C:\GitClones\CucuTestNGReportingProProject\NewProject\target\classes;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\hamid_raza\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\hamid_raza\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\hamid_raza\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\hamid_raza\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.0\selenium-java-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.0\selenium-api-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.0\selenium-chrome-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hamid_raza\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.0\selenium-chromium-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.0\selenium-json-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.0\selenium-manager-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.9.0\selenium-devtools-v110-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.0\selenium-devtools-v111-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.0\selenium-devtools-v112-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.0\selenium-devtools-v85-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.0\selenium-edge-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.0\selenium-firefox-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.0\selenium-http-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.0\selenium-ie-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.0\selenium-remote-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\hamid_raza\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hamid_raza\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\hamid_raza\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\hamid_raza\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\hamid_raza\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.0\selenium-safari-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.0\selenium-support-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\hamid_raza\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\hamid_raza\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\hamid_raza\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\hamid_raza\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.9.2\extentreports-cucumber7-adapter-1.9.2.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\hamid_raza\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\hamid_raza\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\hamid_raza\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\hamid_raza\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\hamid_raza\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hamid_raza\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hamid_raza\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\hamid_raza\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire17814820470533082782\surefirebooter-20240401152834483_3.jar C:\Users\hamid_raza\AppData\Local\Temp\surefire17814820470533082782 2024-04-01T15-28-34_048-jvmRun1 surefire-20240401152834483_1tmp surefire_0-20240401152834483_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire7937778930049384871\surefirebooter-20240401175330771_3.jar C:\Users\hamid_raza\AppData\Local\Temp\surefire7937778930049384871 2024-04-01T17-53-30_492-jvmRun1 surefire-20240401175330771_1tmp surefire_0-20240401175330771_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\GitClones\CucuTestNGReportingProProject\NewProject\target\test-classes;C:\GitClones\CucuTestNGReportingProProject\NewProject\target\classes;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\hamid_raza\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\hamid_raza\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\hamid_raza\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\hamid_raza\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hamid_raza\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\hamid_raza\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\hamid_raza\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\hamid_raza\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\hamid_raza\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\hamid_raza\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\hamid_raza\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.9.2\extentreports-cucumber7-adapter-1.9.2.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\hamid_raza\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\hamid_raza\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\hamid_raza\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\hamid_raza\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\hamid_raza\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hamid_raza\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hamid_raza\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="surefire.test.class.path" value="C:\GitClones\CucuTestNGReportingProProject\NewProject\target\test-classes;C:\GitClones\CucuTestNGReportingProProject\NewProject\target\classes;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\hamid_raza\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\hamid_raza\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\hamid_raza\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\hamid_raza\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.0\selenium-java-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.0\selenium-api-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.0\selenium-chrome-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hamid_raza\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.0\selenium-chromium-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.0\selenium-json-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.0\selenium-manager-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.9.0\selenium-devtools-v110-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.0\selenium-devtools-v111-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.0\selenium-devtools-v112-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.0\selenium-devtools-v85-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.0\selenium-edge-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.0\selenium-firefox-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.0\selenium-http-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.0\selenium-ie-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.0\selenium-remote-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\hamid_raza\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hamid_raza\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\hamid_raza\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\hamid_raza\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\hamid_raza\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\hamid_raza\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.0\selenium-safari-driver-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.0\selenium-support-4.9.0.jar;C:\Users\hamid_raza\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\hamid_raza\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\hamid_raza\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\hamid_raza\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\hamid_raza\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\hamid_raza\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\hamid_raza\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\hamid_raza\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\hamid_raza\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.9.2\extentreports-cucumber7-adapter-1.9.2.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\hamid_raza\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\hamid_raza\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\hamid_raza\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\hamid_raza\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\hamid_raza\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hamid_raza\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hamid_raza\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hamid_raza"/>
     <property name="user.language" value="en"/>
@@ -31,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire17814820470533082782\surefirebooter-20240401152834483_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire7937778930049384871\surefirebooter-20240401175330771_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+9"/>
@@ -58,54 +59,758 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](3)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.614">
+  <testcase name="runScenario[&quot;Logging in to the system scenrio one&quot;, &quot;Login feature&quot;](1)" classname="com.app.runner.CucumberRunnerTestsUI" time="4.234">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
     <system-out><![CDATA[
-@testParams @DB @tag1
-Scenario Outline: Testing params in steps # src/test/resources/features/DBFeatures.feature:23
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:31&amp#27;[0m
 
-@testParams @DB @tag1
-Scenario Outline: Testing params in steps # src/test/resources/features/DBFeatures.feature:24
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:43&amp#27;[0m
 
-@testParams @DB @tag1
-Scenario: Testing params in steps    # src/test/resources/features/DBFeatures.feature:4
-[INFO ] 2024-04-01 15:28:37.209 [TestNG-PoolService-2] ApplicationHooks - ***************Initiate dB Connection***************
-[INFO ] 2024-04-01 15:28:37.209 [TestNG-PoolService-1] ApplicationHooks - ***************Initiate dB Connection***************
-[INFO ] 2024-04-01 15:28:37.209 [TestNG-PoolService-0] ApplicationHooks - ***************Initiate dB Connection***************
-[INFO ] 2024-04-01 15:28:37.221 [TestNG-PoolService-1] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.221 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.221 [TestNG-PoolService-2] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.227 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.227 [TestNG-PoolService-2] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.227 [TestNG-PoolService-1] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.238 [TestNG-PoolService-1] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
-[INFO ] 2024-04-01 15:28:37.238 [TestNG-PoolService-0] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
-  Then user multiplies "12" and "15"      # com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String)
-[INFO ] 2024-04-01 15:28:37.238 [TestNG-PoolService-2] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
-  Then user multiplies "12" and "15"      # com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String)
-  Then user multiplies "12" and "15" # com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String)
-[INFO ] 2024-04-01 15:28:37.240 [TestNG-PoolService-1] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.240 [TestNG-PoolService-2] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.240 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.242 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.245 [TestNG-PoolService-1] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 15:28:37.245 [TestNG-PoolService-2] MoneyCtrlPageStepDef - BeforeStep
-  Then tests pipe separated params   # com.app.stepDefs.dbOpsStepDefAPI.testsPipeSeparatedParams(io.cucumber.datatable.DataTable)
-    | Hello |
-    | My    |
-    | Name  |
-    | Is    |
-    | Mr    |
-    | Hamid |
-    | Raza  |
-[INFO ] 2024-04-01 15:28:37.249 [TestNG-PoolService-2] dbOpsStepDefAPI - Multiplication of numbers Number 1: 51; Number 2: 11 is: 561
-  Then user multiplies "51" and "11"      # com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String)
-[INFO ] 2024-04-01 15:28:37.250 [TestNG-PoolService-0] ApplicationHooks - ***************CLOSE dB Connection***************
-[INFO ] 2024-04-01 15:28:37.250 [TestNG-PoolService-1] dbOpsStepDefAPI - Multiplication of numbers Number 1: 21; Number 2: 17 is: 357
-  Then user multiplies "21" and "17"      # com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String)
-[INFO ] 2024-04-01 15:28:37.251 [TestNG-PoolService-2] ApplicationHooks - ***************CLOSE dB Connection***************
-[INFO ] 2024-04-01 15:28:37.251 [TestNG-PoolService-1] ApplicationHooks - ***************CLOSE dB Connection***************
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:55&amp#27;[0m
+
+@tag1 @UI
+Scenario: Logging in to the system scenrio one                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:7&amp#27;[0m
+
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:13&amp#27;[0m
+
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:19&amp#27;[0m
+
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:49&amp#27;[0m
+
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:61&amp#27;[0m
+
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:37&amp#27;[0m
+
+@tag2 @tag1 @UI
+Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:25&amp#27;[0m
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-4] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-1] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-5] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-8] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-0] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-3] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-7] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-6] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-9] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.783 [TestNG-PoolService-2] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-7] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-9] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-2] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-1] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-4] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-1] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-5] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-4] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-5] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-9] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-8] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-8] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-0] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-2] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-6] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-7] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.792 [TestNG-PoolService-6] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.791 [TestNG-PoolService-3] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:32.792 [TestNG-PoolService-0] Utilities - ***************Set up new browser***************
+[INFO ] 2024-04-01 17:53:32.792 [TestNG-PoolService-3] Utilities - ***************Set up new browser***************
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://cucumber.io/"&amp#27;[0m                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 21187
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3304
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 14694
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 30034
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 26651
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 46125
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 15438
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 28363
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 39097
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3695
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](2)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.348">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[
+@tag3 @tag2 @UI @tag1
+Scenario: Logging in to the system scenrio three                                                        &amp#27;[90m# src/test/resources/features/LoginPage.feature:67&amp#27;[0m
+[INFO ] 2024-04-01 17:53:36.487 [TestNG-PoolService-0] ApplicationHooks - Before_UI
+[INFO ] 2024-04-01 17:53:36.487 [TestNG-PoolService-0] Utilities - getDriver
+[INFO ] 2024-04-01 17:53:36.487 [TestNG-PoolService-0] Utilities - ***************Set up new browser***************
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](3)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.614"/>
-  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](3)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.614"/>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](3)" classname="com.app.runner.CucumberRunnerTestsUI" time="1.947">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 46067
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](4)" classname="com.app.runner.CucumberRunnerTestsUI" time="2.179">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](5)" classname="com.app.runner.CucumberRunnerTestsUI" time="2.477">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsUI" time="2.589">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](7)" classname="com.app.runner.CucumberRunnerTestsUI" time="3.385">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://youtube.com"&amp#27;[0m                                                          &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mfetch &amp#27;[0m&amp#27;[36m&amp#27;[1m"% Gain"&amp#27;[0m&amp#27;[36m for company &amp#27;[0m&amp#27;[36m&amp#27;[1m"ONGC"&amp#27;[0m                                                                &amp#27;[90m# com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio three&quot;, &quot;Login feature&quot;](8)" classname="com.app.runner.CucumberRunnerTestsUI" time="3.392">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mfetch &amp#27;[0m&amp#27;[36m&amp#27;[1m"High"&amp#27;[0m&amp#27;[36m for company &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nestle"&amp#27;[0m                                                                &amp#27;[90m# com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mfetch &amp#27;[0m&amp#27;[36m&amp#27;[1m"Low"&amp#27;[0m&amp#27;[36m for company &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nestle"&amp#27;[0m                                                                 &amp#27;[90m# com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](9)" classname="com.app.runner.CucumberRunnerTestsUI" time="3.4">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](10)" classname="com.app.runner.CucumberRunnerTestsUI" time="3.502">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](11)" classname="com.app.runner.CucumberRunnerTestsUI" time="3.534">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;EPINHYDW03C3&apos;, ip: &apos;192.168.1.5&apos;&#10;Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+]]></failure>
+    <system-out><![CDATA[      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is on app login page &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at com.app.utils.Utilities.ts(Utilities.java:93)
+	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
 </testsuite>

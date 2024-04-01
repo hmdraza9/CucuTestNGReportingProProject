@@ -1,4 +1,279 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.835 s - in TestSuite
+Tests run: 11, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 11.75 s <<< FAILURE! - in TestSuite
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio one", "Login feature"](1)  Time elapsed: 4.234 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](2)  Time elapsed: 0.348 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](3)  Time elapsed: 1.947 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](4)  Time elapsed: 2.179 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](5)  Time elapsed: 2.477 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](6)  Time elapsed: 2.589 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](7)  Time elapsed: 3.385 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio three", "Login feature"](8)  Time elapsed: 3.392 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](9)  Time elapsed: 3.4 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](10)  Time elapsed: 3.502 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+
+com.app.runner.CucumberRunnerTestsUI.runScenario["Logging in to the system scenrio two", "Login feature"](11)  Time elapsed: 3.534 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'EPINHYDW03C3', ip: '192.168.1.5'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.app.utils.Utilities.getDriver(Utilities.java:48)
+	at com.app.Hooks.ApplicationHooks.Before_UI(ApplicationHooks.java:22)
+

@@ -1,6 +1,6 @@
+com\app\stepDefs\LoginPageStepDef.class
+com\app\stepDefs\MoneyCtrlPageStepDef.class
 com\app\runner\CucumberRunnerTestsUI.class
 com\app\stepDefs\dbOpsStepDefAPI.class
 com\app\runner\CucumberRunnerTestsDB.class
 com\app\Hooks\ApplicationHooks.class
-com\app\stepDefs\LoginPageStepDef.class
-com\app\stepDefs\MoneyCtrlPageStepDef.class
