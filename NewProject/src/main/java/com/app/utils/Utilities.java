@@ -24,7 +24,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 //import org.testng.Reporter;
 
 import io.cucumber.java.Scenario;
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;//Post Selenium 4.10, not required
 
 public class Utilities {
 
@@ -44,7 +44,7 @@ public class Utilities {
 			options.addArguments("--remote-allow-origins=*");
 //			options.addArguments("--headless");
 //			options.addArguments("headless");
-			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.chromedriver().setup();//Post Selenium 4.10, not required
 			tlDriver.set(new ChromeDriver(options));
 //			driver = new ChromeDriver(options);
 			getDriver1().manage().timeouts().implicitlyWait(Duration.ofMillis(20000));

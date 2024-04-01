@@ -16,8 +16,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<cucumber.version>7.15.0</cucumber.version>
-		<selenium.version>4.9.0</selenium.version>
-		<webdrivermanager.version>5.6.3</webdrivermanager.version>
+		<selenium.version>4.17.0</selenium.version>
 		<testng.version>7.4.0</testng.version>
 		<apache.common.version>2.4</apache.common.version>
 		<suiteXmlFile>testngUI.xml</suiteXmlFile>
@@ -71,12 +70,12 @@
 			<version>${selenium.version}</version>
 		</dependency>
 
-		<!-- Web Driver Manager -->
+		<!-- Web Driver Manager //Post Selenium 4.10, not required 
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>${webdrivermanager.version}</version>
-		</dependency>
+		</dependency>-->
 
 		<!-- TestNG -->
 		<dependency>
