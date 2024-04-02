@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="76.044" tests="11" errors="0" skipped="0" failures="10">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.266" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\hamid_raza\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire13851493320981785428\surefirebooter-20240401182825362_3.jar C:\Users\hamid_raza\AppData\Local\Temp\surefire13851493320981785428 2024-04-01T18-28-24_952-jvmRun1 surefire-20240401182825362_1tmp surefire_0-20240401182825362_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire10324281453904524268\surefirebooter-20240402174127757_3.jar C:\Users\hamid_raza\AppData\Local\Temp\surefire10324281453904524268 2024-04-02T17-41-27_482-jvmRun1 surefire-20240402174127757_1tmp surefire_0-20240402174127757_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\GitClones\CucuTestNGReportingProProject\NewProject\target\test-classes;C:\GitClones\CucuTestNGReportingProProject\NewProject\target\classes;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\hamid_raza\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hamid_raza\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\hamid_raza\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\hamid_raza\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\hamid_raza\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hamid_raza\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hamid_raza\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hamid_raza\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\hamid_raza\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\hamid_raza\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\hamid_raza\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\hamid_raza\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\hamid_raza\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\hamid_raza\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\hamid_raza\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.9.2\extentreports-cucumber7-adapter-1.9.2.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\hamid_raza\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\hamid_raza\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\hamid_raza\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\hamid_raza\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\hamid_raza\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\hamid_raza\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\hamid_raza\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hamid_raza\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hamid_raza\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hamid_raza\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hamid_raza\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\hamid_raza\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire13851493320981785428\surefirebooter-20240401182825362_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hamid_raza\AppData\Local\Temp\surefire10324281453904524268\surefirebooter-20240402174127757_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+9"/>
@@ -58,949 +58,227 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](1)" classname="com.app.runner.CucumberRunnerTestsUI" time="19.519">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4e9cca03a47a066eba89bf14a415d29c, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58759/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4e9cca03a47a066eba89bf14a415d29c" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e9cca03a47a066eba89bf14a415d29c, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58759/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e9cca03a47a066eba89bf14a415d29c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.516">
     <system-out><![CDATA[
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:61&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:27
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:55&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:26
 
-@tag1 @UI
-Scenario: Logging in to the system scenrio one                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:7&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:28
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:13&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:29
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:49&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:23
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:25&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:25
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:37&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:24
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:31&amp#27;[0m
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:30
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:43&amp#27;[0m
+@testParams @DB @tag1
+Scenario: Testing params in steps               # src/test/resources/features/DBFeatures.feature:4
 
-@tag2 @tag1 @UI
-Scenario: Logging in to the system scenrio two                                                          &amp#27;[90m# src/test/resources/features/LoginPage.feature:19&amp#27;[0m
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-2] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-7] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-5] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-3] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-0] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-1] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-6] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-8] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-4] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.409 [TestNG-PoolService-9] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-4] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-3] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-4] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-3] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-2] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-1] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-5] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-8] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-1] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-0] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-9] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-0] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-8] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-9] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-5] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-2] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-7] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.415 [TestNG-PoolService-6] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-7] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:27.416 [TestNG-PoolService-6] Utilities - ***************Set up new browser***************
-[INFO ] 2024-04-01 18:28:33.656 [TestNG-PoolService-5] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:33.667 [TestNG-PoolService-5] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:33.670 [TestNG-PoolService-5] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:33.677 [TestNG-PoolService-5] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:33.791 [TestNG-PoolService-2] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:33.795 [TestNG-PoolService-2] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:33.796 [TestNG-PoolService-2] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:33.798 [TestNG-PoolService-2] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:34.488 [TestNG-PoolService-9] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:34.491 [TestNG-PoolService-9] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:34.493 [TestNG-PoolService-9] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:34.496 [TestNG-PoolService-9] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:35.818 [TestNG-PoolService-4] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:35.821 [TestNG-PoolService-4] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:35.825 [TestNG-PoolService-4] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:35.827 [TestNG-PoolService-4] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:36.108 [TestNG-PoolService-7] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:36.110 [TestNG-PoolService-7] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.114 [TestNG-PoolService-7] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.116 [TestNG-PoolService-7] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:36.283 [TestNG-PoolService-8] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:36.288 [TestNG-PoolService-8] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.290 [TestNG-PoolService-8] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.291 [TestNG-PoolService-8] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:36.427 [TestNG-PoolService-3] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:36.432 [TestNG-PoolService-3] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.434 [TestNG-PoolService-3] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.437 [TestNG-PoolService-3] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:36.822 [TestNG-PoolService-1] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:36.823 [TestNG-PoolService-1] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.824 [TestNG-PoolService-1] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:36.825 [TestNG-PoolService-1] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:38.637 [TestNG-PoolService-6] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:38.638 [TestNG-PoolService-6] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:38.638 [TestNG-PoolService-6] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:38.639 [TestNG-PoolService-6] LoginPageStepDef - userIsOnLoginPage
-[INFO ] 2024-04-01 18:28:41.363 [TestNG-PoolService-0] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:41.368 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:41.370 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:41.370 [TestNG-PoolService-0] LoginPageStepDef - userIsOnLoginPage
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [581a066dad481c0c8bbfa86819ce7775, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58761/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 581a066dad481c0c8bbfa86819ce7775
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0edc0105ee1bf5e9449ba8a7d9aa5283, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58782/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0edc0105ee1bf5e9449ba8a7d9aa5283
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e38a9e3abb3f587ca30a6bf4ac2edd7, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58846/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e38a9e3abb3f587ca30a6bf4ac2edd7
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fe43b75728b0c7442c2f9499fa1ff70c, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58831/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fe43b75728b0c7442c2f9499fa1ff70c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e9cca03a47a066eba89bf14a415d29c, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58759/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e9cca03a47a066eba89bf14a415d29c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ffd9800db64e967776fef8ee4cf5e6b5, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58792/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ffd9800db64e967776fef8ee4cf5e6b5
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-[INFO ] 2024-04-01 18:28:43.520 [TestNG-PoolService-8] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:43.521 [TestNG-PoolService-8] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:43.521 [TestNG-PoolService-8] Utilities - ***************Kill Browser***************
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2241ccc0a6bef506ae026c4e7247e927, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58861/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2241ccc0a6bef506ae026c4e7247e927
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-
-    Embedding null [image/png 25150 bytes]
-
-
-    Embedding null [image/png 25150 bytes]
-
-
-    Embedding null [image/png 25150 bytes]
-
-[INFO ] 2024-04-01 18:28:43.777 [TestNG-PoolService-2] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:43.778 [TestNG-PoolService-2] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:43.778 [TestNG-PoolService-2] Utilities - ***************Kill Browser***************
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b9d57d936df9b072b4bde1dbe983fd5, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58823/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b9d57d936df9b072b4bde1dbe983fd5
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-[INFO ] 2024-04-01 18:28:43.791 [TestNG-PoolService-9] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:43.791 [TestNG-PoolService-9] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:43.791 [TestNG-PoolService-9] Utilities - ***************Kill Browser***************
-[INFO ] 2024-04-01 18:28:43.791 [TestNG-PoolService-5] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:43.791 [TestNG-PoolService-5] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:43.791 [TestNG-PoolService-5] Utilities - ***************Kill Browser***************
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is on app login page &amp#27;[0m&amp#27;[31m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [42fe9c026eec99d2ae3dc03e14db3043, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 42fe9c026eec99d2ae3dc03e14db3043
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at âœ½.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-&amp#27;[0m
-
-    Embedding null [image/png 25150 bytes]
-
-[INFO ] 2024-04-01 18:28:43.837 [TestNG-PoolService-4] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:43.839 [TestNG-PoolService-4] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:43.839 [TestNG-PoolService-4] Utilities - ***************Kill Browser***************
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigates to &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://yahoo.com"&amp#27;[0m                                                            &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-
-    Embedding null [image/png 25150 bytes]
-
-[INFO ] 2024-04-01 18:28:43.893 [TestNG-PoolService-3] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:43.893 [TestNG-PoolService-3] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:43.894 [TestNG-PoolService-3] Utilities - ***************Kill Browser***************
-[INFO ] 2024-04-01 18:28:44.135 [TestNG-PoolService-1] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:44.135 [TestNG-PoolService-1] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:44.135 [TestNG-PoolService-1] Utilities - ***************Kill Browser***************
-
-    Embedding null [image/png 25150 bytes]
-
-[INFO ] 2024-04-01 18:28:44.214 [TestNG-PoolService-6] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:44.216 [TestNG-PoolService-6] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:44.216 [TestNG-PoolService-6] Utilities - ***************Kill Browser***************
-
-    Embedding null [image/png 25150 bytes]
-
-[INFO ] 2024-04-01 18:28:44.219 [TestNG-PoolService-7] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:44.219 [TestNG-PoolService-7] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:44.219 [TestNG-PoolService-7] Utilities - ***************Kill Browser***************
-]]></system-out>
-    <system-err><![CDATA[Apr 01, 2024 6:28:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-Apr 01, 2024 6:28:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-javax.imageio.IIOException: Error reading PNG image data
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1530)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1847)
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1470)
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1317)
-	at com.app.utils.Utilities.ts(Utilities.java:98)
-	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.io.EOFException: Unexpected end of ZLIB input stream
-	at java.base/java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244)
-	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
-	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
-	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:201)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1245)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1381)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1521)
-	... 41 more
-javax.imageio.IIOException: Error reading PNG image data
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1530)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1847)
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1470)
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1317)
-	at com.app.utils.Utilities.ts(Utilities.java:98)
-	at com.app.Hooks.ApplicationHooks.After_UI(ApplicationHooks.java:31)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invokeStatic(Invoker.java:80)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:45)
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:90)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.io.EOFException: Unexpected end of ZLIB input stream
-	at java.base/java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244)
-	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
-	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
-	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:201)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1245)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1381)
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1521)
-	... 41 more
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](2)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.111">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0edc0105ee1bf5e9449ba8a7d9aa5283, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58782/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0edc0105ee1bf5e9449ba8a7d9aa5283" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0edc0105ee1bf5e9449ba8a7d9aa5283, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58782/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0edc0105ee1bf5e9449ba8a7d9aa5283
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-    <system-out><![CDATA[
-@tag3 @tag2 @UI @tag1
-Scenario: Logging in to the system scenrio three                                                        &amp#27;[90m# src/test/resources/features/LoginPage.feature:67&amp#27;[0m
-[INFO ] 2024-04-01 18:28:46.411 [TestNG-PoolService-9] ApplicationHooks - Before_UI
-[INFO ] 2024-04-01 18:28:46.412 [TestNG-PoolService-9] Utilities - getDriver
-[INFO ] 2024-04-01 18:28:46.412 [TestNG-PoolService-9] Utilities - ***************Set up new browser***************
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:31
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-7] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-2] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-1] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-5] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-3] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-9] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-0] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-4] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-6] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.923 [TestNG-PoolService-8] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.931 [TestNG-PoolService-4] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.931 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.932 [TestNG-PoolService-3] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.931 [TestNG-PoolService-6] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.932 [TestNG-PoolService-7] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.931 [TestNG-PoolService-9] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.932 [TestNG-PoolService-5] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.932 [TestNG-PoolService-2] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.931 [TestNG-PoolService-1] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.932 [TestNG-PoolService-8] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.935 [TestNG-PoolService-9] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.935 [TestNG-PoolService-7] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.935 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.936 [TestNG-PoolService-8] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.936 [TestNG-PoolService-1] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.936 [TestNG-PoolService-4] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.941 [TestNG-PoolService-3] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.941 [TestNG-PoolService-2] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.941 [TestNG-PoolService-5] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.944 [TestNG-PoolService-6] MoneyCtrlPageStepDef - BeforeStep
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 180, Actual: 180; Verify: true
+Expected: 99, Actual: 99; Verify: true
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-4] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-3] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-9] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-5] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-6] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-7] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-0] dbOpsStepDefAPI - Multiplication of numbers Number 1: 33; Number 2: 3 is: 99
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-2] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+  Then user multiplies "33" and "3" verify "99" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-8] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+[INFO ] 2024-04-02 17:41:29.954 [TestNG-PoolService-1] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.956 [TestNG-PoolService-4] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.956 [TestNG-PoolService-6] LoginPageStepDef - BeforeStep
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.956 [TestNG-PoolService-7] LoginPageStepDef - BeforeStep
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.957 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.957 [TestNG-PoolService-1] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.958 [TestNG-PoolService-5] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.958 [TestNG-PoolService-4] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.959 [TestNG-PoolService-8] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.959 [TestNG-PoolService-2] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.959 [TestNG-PoolService-3] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.959 [TestNG-PoolService-7] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.959 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.960 [TestNG-PoolService-1] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.960 [TestNG-PoolService-9] LoginPageStepDef - BeforeStep
+Expected: 357, Actual: 357; Verify: true
+[INFO ] 2024-04-02 17:41:29.960 [TestNG-PoolService-1] dbOpsStepDefAPI - Multiplication of numbers Number 1: 21; Number 2: 17 is: 357
+[INFO ] 2024-04-02 17:41:29.960 [TestNG-PoolService-5] MoneyCtrlPageStepDef - BeforeStep
+Expected: 441, Actual: 441; Verify: true
+[INFO ] 2024-04-02 17:41:29.961 [TestNG-PoolService-4] dbOpsStepDefAPI - Multiplication of numbers Number 1: 21; Number 2: 21 is: 441
+[INFO ] 2024-04-02 17:41:29.961 [TestNG-PoolService-6] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.962 [TestNG-PoolService-8] MoneyCtrlPageStepDef - BeforeStep
+  Then user multiplies "21" and "21" verify "441" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.962 [TestNG-PoolService-3] MoneyCtrlPageStepDef - BeforeStep
+  Then user multiplies "21" and "17" verify "357" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.963 [TestNG-PoolService-1] ApplicationHooks - ***************CLOSE dB Connection***************
+Expected: 121, Actual: 121; Verify: true
+[INFO ] 2024-04-02 17:41:29.963 [TestNG-PoolService-5] dbOpsStepDefAPI - Multiplication of numbers Number 1: 11; Number 2: 11 is: 121
+  Then tests pipe separated params              # com.app.stepDefs.dbOpsStepDefAPI.testsPipeSeparatedParams(io.cucumber.datatable.DataTable)
+    | Hello |
+    | My    |
+    | Name  |
+    | Is    |
+    | Mr    |
+    | Hamid |
+    | Raza  |
+Expected: 374, Actual: 374; Verify: true
+[INFO ] 2024-04-02 17:41:29.966 [TestNG-PoolService-7] dbOpsStepDefAPI - Multiplication of numbers Number 1: 22; Number 2: 17 is: 374
+[INFO ] 2024-04-02 17:41:29.966 [TestNG-PoolService-4] ApplicationHooks - ***************CLOSE dB Connection***************
+Expected: 88, Actual: 88; Verify: true
+[INFO ] 2024-04-02 17:41:29.966 [TestNG-PoolService-6] dbOpsStepDefAPI - Multiplication of numbers Number 1: 4; Number 2: 22 is: 88
+[INFO ] 2024-04-02 17:41:29.967 [TestNG-PoolService-2] MoneyCtrlPageStepDef - BeforeStep
+  Then user multiplies "22" and "17" verify "374" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+  Then user multiplies "11" and "11" verify "121" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.968 [TestNG-PoolService-9] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.968 [TestNG-PoolService-5] ApplicationHooks - ***************CLOSE dB Connection***************
+Expected: 180, Actual: 180; Verify: true
+[INFO ] 2024-04-02 17:41:29.968 [TestNG-PoolService-3] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+Expected: 572, Actual: 572; Verify: true
+  Then user multiplies "4" and "22" verify "88"   # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.969 [TestNG-PoolService-8] dbOpsStepDefAPI - Multiplication of numbers Number 1: 52; Number 2: 11 is: 572
+  Then user multiplies "52" and "11" verify "572" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.969 [TestNG-PoolService-3] ApplicationHooks - ***************CLOSE dB Connection***************
+Expected: 561, Actual: 561; Verify: true
+[INFO ] 2024-04-02 17:41:29.970 [TestNG-PoolService-2] dbOpsStepDefAPI - Multiplication of numbers Number 1: 51; Number 2: 11 is: 561
+[INFO ] 2024-04-02 17:41:29.970 [TestNG-PoolService-0] ApplicationHooks - ***************CLOSE dB Connection***************
+  Then user multiplies "51" and "11" verify "561" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.970 [TestNG-PoolService-7] ApplicationHooks - ***************CLOSE dB Connection***************
+[INFO ] 2024-04-02 17:41:29.971 [TestNG-PoolService-8] ApplicationHooks - ***************CLOSE dB Connection***************
+[INFO ] 2024-04-02 17:41:29.971 [TestNG-PoolService-2] ApplicationHooks - ***************CLOSE dB Connection***************
+Expected: 195, Actual: 195; Verify: true
+[INFO ] 2024-04-02 17:41:29.971 [TestNG-PoolService-9] dbOpsStepDefAPI - Multiplication of numbers Number 1: 13; Number 2: 15 is: 195
+[INFO ] 2024-04-02 17:41:29.972 [TestNG-PoolService-6] ApplicationHooks - ***************CLOSE dB Connection***************
+  Then user multiplies "13" and "15" verify "195" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.972 [TestNG-PoolService-9] ApplicationHooks - ***************CLOSE dB Connection***************
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](3)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.262">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [fe43b75728b0c7442c2f9499fa1ff70c, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58831/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fe43b75728b0c7442c2f9499fa1ff70c" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fe43b75728b0c7442c2f9499fa1ff70c, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58831/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fe43b75728b0c7442c2f9499fa1ff70c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](4)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.297">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [42fe9c026eec99d2ae3dc03e14db3043, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 42fe9c026eec99d2ae3dc03e14db3043" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [42fe9c026eec99d2ae3dc03e14db3043, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 42fe9c026eec99d2ae3dc03e14db3043
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](5)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.306">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [581a066dad481c0c8bbfa86819ce7775, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58761/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 581a066dad481c0c8bbfa86819ce7775" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [581a066dad481c0c8bbfa86819ce7775, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58761/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 581a066dad481c0c8bbfa86819ce7775
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.309">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7e38a9e3abb3f587ca30a6bf4ac2edd7, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58846/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7e38a9e3abb3f587ca30a6bf4ac2edd7" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e38a9e3abb3f587ca30a6bf4ac2edd7, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58846/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e38a9e3abb3f587ca30a6bf4ac2edd7
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](7)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.407">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ffd9800db64e967776fef8ee4cf5e6b5, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58792/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ffd9800db64e967776fef8ee4cf5e6b5" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ffd9800db64e967776fef8ee4cf5e6b5, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58792/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ffd9800db64e967776fef8ee4cf5e6b5
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](8)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.409">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2b9d57d936df9b072b4bde1dbe983fd5, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58823/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b9d57d936df9b072b4bde1dbe983fd5" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b9d57d936df9b072b4bde1dbe983fd5, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6743B0648B96C91CE5A5C01939681E59.d.1BEA026677D69415A3EC93E3BDFC84B5.e.5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58823/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b9d57d936df9b072b4bde1dbe983fd5
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio two&quot;, &quot;Login feature&quot;](9)" classname="com.app.runner.CucumberRunnerTestsUI" time="0.607">
-    <failure message="no such element: element not found&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2241ccc0a6bef506ae026c4e7247e927, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58861/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2241ccc0a6bef506ae026c4e7247e927" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: element not found
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2241ccc0a6bef506ae026c4e7247e927, executeScript {script=arguments[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.31A8B27E8C1947D9FD974197DBA3651B.d.055A56A74E7AFFA131E39C1B0D05A57D.e.2}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58861/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2241ccc0a6bef506ae026c4e7247e927
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)
-	at com.app.utils.Utilities.clickToElelement(Utilities.java:139)
-	at com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(LoginPageStepDef.java:34)
-	at ✽.user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:4)
-]]></failure>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio one&quot;, &quot;Login feature&quot;](10)" classname="com.app.runner.CucumberRunnerTestsUI" time="9.048">
-    <system-out><![CDATA[[INFO ] 2024-04-01 18:28:48.653 [TestNG-PoolService-9] Utilities - Driver --> java.lang.ThreadLocal@63709ced
-[INFO ] 2024-04-01 18:28:48.654 [TestNG-PoolService-9] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:48.654 [TestNG-PoolService-9] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:48.656 [TestNG-PoolService-9] LoginPageStepDef - userIsOnLoginPage
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on app login page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-[INFO ] 2024-04-01 18:28:48.784 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:48.785 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:48.786 [TestNG-PoolService-0] LoginPageStepDef - userLogsIntoSystem
-[INFO ] 2024-04-01 18:28:48.800 [TestNG-PoolService-0] LoginPage - Title is : --> Protractor practice website - Banking App
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser logs into the system&amp#27;[0m                                                                        &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsIntoSystem()&amp#27;[0m
-[INFO ] 2024-04-01 18:28:48.803 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:48.803 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser logs out the system&amp#27;[0m                                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userLogsOutTheSystem()&amp#27;[0m
-[INFO ] 2024-04-01 18:28:48.807 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:48.808 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:48.809 [TestNG-PoolService-0] LoginPageStepDef - userNavigatesToPage
-
-    Embedding null [image/png 298689 bytes]
-
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://cucumber.io/"&amp#27;[0m                                                         &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on app login page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.way2automation.com/angularjs-protractor/banking/#/login"&amp#27;[0m &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userIsOnLoginPage(java.lang.String)&amp#27;[0m
-[INFO ] 2024-04-01 18:28:55.255 [TestNG-PoolService-9] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:55.255 [TestNG-PoolService-0] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:28:55.255 [TestNG-PoolService-0] Utilities - tearDown
-[INFO ] 2024-04-01 18:28:55.255 [TestNG-PoolService-0] Utilities - ***************Kill Browser***************
-[INFO ] 2024-04-01 18:28:55.255 [TestNG-PoolService-9] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:55.255 [TestNG-PoolService-9] LoginPageStepDef - userNavigatesToPage
-]]></system-out>
-    <system-err><![CDATA[Apr 01, 2024 6:28:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 123
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Logging in to the system scenrio three&quot;, &quot;Login feature&quot;](11)" classname="com.app.runner.CucumberRunnerTestsUI" time="52.003">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;bsr_table hist_tbl_hm&apos;]/table/tbody//h3//a[text()=&apos;Nestle&apos;]/ancestor::tr/td[2]&quot;}&#10;  (Session info: chrome=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [33dd6f4939c8a0ca9579fa7f86d8180c, findElement {using=xpath, value=//div[@class=&apos;bsr_table hist_tbl_hm&apos;]/table/tbody//h3//a[text()=&apos;Nestle&apos;]/ancestor::tr/td[2]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59048/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 33dd6f4939c8a0ca9579fa7f86d8180c" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='Nestle']/ancestor::tr/td[2]"}
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33dd6f4939c8a0ca9579fa7f86d8180c, findElement {using=xpath, value=//div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='Nestle']/ancestor::tr/td[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59048/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33dd6f4939c8a0ca9579fa7f86d8180c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at com.app.pages.MoneyCtrlPage.fetchTodayStock(MoneyCtrlPage.java:57)
-	at com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(MoneyCtrlPageStepDef.java:23)
-	at ✽.fetch "High" for company "Nestle"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:72)
-]]></failure>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.517"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.517"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.518"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.001"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](6)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.001"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](8)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.517"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](9)" classname="com.app.runner.CucumberRunnerTestsDB" time="0"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](10)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.001">
     <system-out><![CDATA[
-    Embedding null [image/png 56416 bytes]
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:34
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](7)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.001"/>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](11)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.002">
+    <system-out><![CDATA[[INFO ] 2024-04-02 17:41:29.979 [TestNG-PoolService-0] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.979 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
 
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://youtube.com"&amp#27;[0m                                                          &amp#27;[90m# com.app.stepDefs.LoginPageStepDef.userNavigatesToPage(java.lang.String)&amp#27;[0m
-[INFO ] 2024-04-01 18:28:58.710 [TestNG-PoolService-9] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:58.711 [TestNG-PoolService-9] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:28:58.712 [TestNG-PoolService-9] MoneyCtrlPageStepDef - userNavigatesToPage
-[INFO ] 2024-04-01 18:29:06.618 [TestNG-PoolService-9] MoneyCtrlPage - List: [[[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th]]
-[INFO ] 2024-04-01 18:29:06.731 [TestNG-PoolService-9] MoneyCtrlPage - Header pointing at: 7
-[INFO ] 2024-04-01 18:29:06.732 [TestNG-PoolService-9] MoneyCtrlPage - element: //div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='ONGC']/ancestor::tr/td[RunTimeVar2]
-[INFO ] 2024-04-01 18:29:06.732 [TestNG-PoolService-9] MoneyCtrlPage - element: //div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='ONGC']/ancestor::tr/td[7]
-[INFO ] 2024-04-01 18:29:06.816 [TestNG-PoolService-9] MoneyCtrlPage - paramValueAct: 0.69
-
-    Value of <b>% Gain</b> for company <b>ONGC</b> is <b>0.69</b>
-
-
-    Embedding null [image/png 145527 bytes]
-
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mfetch &amp#27;[0m&amp#27;[32m&amp#27;[1m"% Gain"&amp#27;[0m&amp#27;[32m for company &amp#27;[0m&amp#27;[32m&amp#27;[1m"ONGC"&amp#27;[0m                                                                &amp#27;[90m# com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(java.lang.String,java.lang.String)&amp#27;[0m
-[INFO ] 2024-04-01 18:29:07.142 [TestNG-PoolService-9] LoginPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:29:07.143 [TestNG-PoolService-9] MoneyCtrlPageStepDef - BeforeStep
-[INFO ] 2024-04-01 18:29:07.144 [TestNG-PoolService-9] MoneyCtrlPageStepDef - userNavigatesToPage
-[INFO ] 2024-04-01 18:29:17.834 [TestNG-PoolService-9] MoneyCtrlPage - List: [[[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th], [[ChromeDriver: chrome on windows (33dd6f4939c8a0ca9579fa7f86d8180c)] -> xpath: //div[@class='bsr_table hist_tbl_hm']/table/thead/tr/th]]
-[INFO ] 2024-04-01 18:29:17.867 [TestNG-PoolService-9] MoneyCtrlPage - Header pointing at: 2
-[INFO ] 2024-04-01 18:29:17.867 [TestNG-PoolService-9] MoneyCtrlPage - element: //div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='Nestle']/ancestor::tr/td[RunTimeVar2]
-[INFO ] 2024-04-01 18:29:17.868 [TestNG-PoolService-9] MoneyCtrlPage - element: //div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='Nestle']/ancestor::tr/td[2]
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mfetch &amp#27;[0m&amp#27;[31m&amp#27;[1m"High"&amp#27;[0m&amp#27;[31m for company &amp#27;[0m&amp#27;[31m&amp#27;[1m"Nestle"&amp#27;[0m                                                                &amp#27;[90m# com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(java.lang.String,java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='Nestle']/ancestor::tr/td[2]"}
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [33dd6f4939c8a0ca9579fa7f86d8180c, findElement {using=xpath, value=//div[@class='bsr_table hist_tbl_hm']/table/tbody//h3//a[text()='Nestle']/ancestor::tr/td[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\HAMID_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59048/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33dd6f4939c8a0ca9579fa7f86d8180c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at com.app.pages.MoneyCtrlPage.fetchTodayStock(MoneyCtrlPage.java:57)
-	at com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(MoneyCtrlPageStepDef.java:23)
-	at âœ½.fetch "High" for company "Nestle"(file:///C:/GitClones/CucuTestNGReportingProProject/NewProject/src/test/resources/features/LoginPage.feature:72)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mfetch &amp#27;[0m&amp#27;[36m&amp#27;[1m"Low"&amp#27;[0m&amp#27;[36m for company &amp#27;[0m&amp#27;[36m&amp#27;[1m"Nestle"&amp#27;[0m                                                                 &amp#27;[90m# com.app.stepDefs.MoneyCtrlPageStepDef.userNavigatesToPage(java.lang.String,java.lang.String)&amp#27;[0m
-
-    Embedding null [image/png 227612 bytes]
-
-[INFO ] 2024-04-01 18:29:38.186 [TestNG-PoolService-9] ApplicationHooks - After_UI
-[INFO ] 2024-04-01 18:29:38.186 [TestNG-PoolService-9] Utilities - tearDown
-[INFO ] 2024-04-01 18:29:38.186 [TestNG-PoolService-9] Utilities - ***************Kill Browser***************
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:32
+[INFO ] 2024-04-02 17:41:29.981 [TestNG-PoolService-3] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.981 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.981 [TestNG-PoolService-3] LoginPageStepDef - BeforeStep
+Expected: 180, Actual: 180; Verify: true
+[INFO ] 2024-04-02 17:41:29.982 [TestNG-PoolService-0] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+[INFO ] 2024-04-02 17:41:29.982 [TestNG-PoolService-3] MoneyCtrlPageStepDef - BeforeStep
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.983 [TestNG-PoolService-0] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.984 [TestNG-PoolService-0] MoneyCtrlPageStepDef - BeforeStep
+Expected: 180, Actual: 180; Verify: true
+[INFO ] 2024-04-02 17:41:29.984 [TestNG-PoolService-3] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+Expected: 990, Actual: 990; Verify: true
+[INFO ] 2024-04-02 17:41:29.985 [TestNG-PoolService-0] dbOpsStepDefAPI - Multiplication of numbers Number 1: 45; Number 2: 22 is: 990
+  Then user multiplies "45" and "22" verify "990" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.985 [TestNG-PoolService-3] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.985 [TestNG-PoolService-0] ApplicationHooks - ***************CLOSE dB Connection***************
+[INFO ] 2024-04-02 17:41:29.986 [TestNG-PoolService-3] MoneyCtrlPageStepDef - BeforeStep
+Expected: 546, Actual: 546; Verify: true
+[INFO ] 2024-04-02 17:41:29.986 [TestNG-PoolService-3] dbOpsStepDefAPI - Multiplication of numbers Number 1: 26; Number 2: 21 is: 546
+  Then user multiplies "26" and "21" verify "546" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](12)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.004">
+    <system-out><![CDATA[[INFO ] 2024-04-02 17:41:29.988 [TestNG-PoolService-3] ApplicationHooks - ***************CLOSE dB Connection***************
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Testing params in steps&quot;, &quot;Login feature&quot;](13)" classname="com.app.runner.CucumberRunnerTestsDB" time="0.009">
+    <system-out><![CDATA[
+@testParams @DB @tag1
+Scenario Outline: Testing params in steps         # src/test/resources/features/DBFeatures.feature:33
+[INFO ] 2024-04-02 17:41:29.989 [TestNG-PoolService-2] ApplicationHooks - ***************Initiate dB Connection***************
+[INFO ] 2024-04-02 17:41:29.990 [TestNG-PoolService-2] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.991 [TestNG-PoolService-2] MoneyCtrlPageStepDef - BeforeStep
+Expected: 180, Actual: 180; Verify: true
+[INFO ] 2024-04-02 17:41:29.991 [TestNG-PoolService-2] dbOpsStepDefAPI - Multiplication of numbers Number 1: 12; Number 2: 15 is: 180
+  Then user multiplies "12" and "15" verify "180" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.992 [TestNG-PoolService-2] LoginPageStepDef - BeforeStep
+[INFO ] 2024-04-02 17:41:29.992 [TestNG-PoolService-2] MoneyCtrlPageStepDef - BeforeStep
+Expected: 176, Actual: 176; Verify: true
+[INFO ] 2024-04-02 17:41:29.992 [TestNG-PoolService-2] dbOpsStepDefAPI - Multiplication of numbers Number 1: 16; Number 2: 11 is: 176
+  Then user multiplies "16" and "11" verify "176" # void com.app.stepDefs.dbOpsStepDefAPI.userMultipliesTwoNumbers(java.lang.String,java.lang.String,java.lang.String)
+[INFO ] 2024-04-02 17:41:29.993 [TestNG-PoolService-2] ApplicationHooks - ***************CLOSE dB Connection***************
 ]]></system-out>
   </testcase>
 </testsuite>
