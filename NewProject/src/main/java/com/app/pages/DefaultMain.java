@@ -4,6 +4,7 @@ abstract class Shape {
 	protected int x;
 	protected int y;
 
+
 	// default constructor
 	public Shape() {
 		// initialize default values for fields
