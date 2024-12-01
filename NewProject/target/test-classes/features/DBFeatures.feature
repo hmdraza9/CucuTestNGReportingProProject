@@ -1,6 +1,6 @@
 Feature: Login feature
     
-	@testParams @DB @tag1 
+	@testParams @DB @tag1
 	Scenario: Testing params in steps
 		Then user multiplies "33" and "3" verify "99"
 		Then tests pipe separated params

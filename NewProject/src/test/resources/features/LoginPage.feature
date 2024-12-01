@@ -3,8 +3,12 @@ Feature: Login feature
 Background: 
 	Given user is on app login page "https://www.way2automation.com/angularjs-protractor/banking/#/login"
 
-  @tag1 @UI
+  @tag4 @UI
   Scenario: Logging in to the system scenrio one
+    Then user navigates to "https://youtube.com"
+    Then fetch "% Gain" for company "ONGC"
+    Then fetch "High" for company "Grasim"
+    Then fetch "Low" for company "Grasim"
     Then User logs into the system
     Then User logs out the system
     Then user navigates to "https://cucumber.io/"
